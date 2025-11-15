@@ -1,16 +1,47 @@
-# React + Vite
+# 🏡 Home Decor App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: **https://home-decor-app.pages.dev**
 
-Currently, two official plugins are available:
+A modern and responsive Home Decor web application built using React and Tailwind CSS.  
+The project includes dynamic search, sorting, wishlist functionality, and a wishlist analytics chart.  
+Deployed globally using **Cloudflare Pages** for maximum speed and performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔍 Search Items  
+Easily search home decor products with instant filtering.
 
-## Expanding the ESLint configuration
+### ↕️ Sort Items  
+Sort products by price, category, or other criteria for easier navigation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ❤️ Wishlist System  
+Add your favorite items to a wishlist and manage them easily.
+
+### 📊 Wishlist Chart  
+A visual chart built using **Recharts** that shows insights about your wishlist items  
+(like price distribution or total items).
+
+### ⚡ Fast Deployment  
+Built with Vite and deployed on **Cloudflare Pages**, ensuring fast loading and global CDN coverage.
+
+---
+
+## 🛠️ Technologies Used
+
+### **Frontend**
+- React **19.1.1**
+- React DOM **19.1.1**
+- React Router **7.9.3**
+- Tailwind CSS **4.1.14**
+- Recharts **3.2.1**
+- Axios **1.12.2**
+
+### **Build Tools**
+- Vite (via `@tailwindcss/vite`)
+
+### **Hosting**
+- Cloudflare Pages
+
+##
